@@ -17,7 +17,7 @@ This project was developed as part of my **Informatics Capstone at Indiana Unive
 - **Data Visualization:** Chart.js  
 
 ## Screenshots  
-> _(Optional: Add screenshots or a GIF here)_  
+> _(Add screenshots here next)_  
 
 ## Security Notice  
 Google OAuth credentials were removed for security reasons. This repo only contains the public-facing code and database structure.  
