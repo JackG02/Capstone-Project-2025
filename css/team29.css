@@ -1,0 +1,394 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 100px 0;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+}
+
+.bg-primary {
+    background-color: #990000 !important;
+}
+
+/* First button */
+.first-btn {
+    background-color: #EDEBEB;
+    border: 2px solid #EDEBEB;
+    color: black;
+}
+
+.first-btn:hover {
+    transform: translateY(-5px);
+}
+
+/* Second button */
+.second-btn {
+    background-color: #990000;
+    border: 2px solid #990000;
+    color: white;
+}
+
+.second-btn:hover {
+    transform: translateY(-5px);
+    background-color: #990000;
+    border-color: #990000;
+    color: white;
+}
+
+
+/* Navigation */
+
+.text-group {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.brand-tagline {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #990000;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+    color: #990000;
+    transform: translateY(-2px);
+    transition: all 0.3s ease-in-out;
+}
+
+/* About us */
+
+/* Card Styling */
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Card body spacing */
+.card-body {
+    padding: 1rem;
+    text-align: left;
+}
+
+/* Card title styling */
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: left;
+    color: black;
+    /* font-style: italic; */
+    font-weight: bold;
+}
+
+.card-texts {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: left;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Styling for the 'Our Values' Section Cards */
+.text-center h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #990000;
+    margin-bottom: 1rem;
+}
+
+.text-center h4 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.text-center p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.text-center b {
+    font-weight: bold;
+    color: #990000;
+}
+
+/* Make arrows bigger and thicker */
+.arrow {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* Make images bigger */
+.large-image {
+    height: 150px;
+    width: auto;
+}
+
+.card-img-top {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+}
+
+body {
+    background-color: #990000;
+    margin: 0;
+}
+
+.content {
+    max-width: 400px;
+    width: 100%;
+    margin: 50px auto 15px auto;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    padding: 25px;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+    color: #3b4252;
+}
+
+.content h1 .icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #9196a5;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.content h1 .icon svg {
+    fill: #fff;
+}
+
+.content .login-txt {
+    margin: 0;
+    padding: 15px 0 25px 0;
+    color: #3b4252;
+}
+
+.content .google-login-btn {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #990000;
+    cursor: pointer;
+}
+
+.content .google-login-btn .icon {
+    display: inline-flex;
+    height: 100%;
+    padding: 15px 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #990000;
+    margin-right: 15px;
+}
+
+.content .google-login-btn .icon svg {
+    fill: #fff;
+}
+
+.content .google-login-btn:hover {
+    background-color: #767676;
+}
+
+.content .google-login-btn:hover .icon {
+    background-color: #767676;
+}
+
+.content .profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0 25px 0;
+}
+
+.content .profile-picture img {
+    width: 100%;
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.content .profile-details {
+    display: flex;
+    flex-flow: column;
+    padding: 10px 0;
+}
+
+.content .profile-details>div {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f2f5;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.content .profile-details>div .icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #9196a5;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.content .profile-details>div .icon svg {
+    fill: #fff;
+}
+
+.content .profile-details>div strong {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.content .profile-details>div:last-child {
+    border-bottom: none;
+}
+
+.content .logout-btn {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #db5d36;
+    cursor: pointer;
+}
+
+.content .logout-btn .icon {
+    display: inline-flex;
+    height: 100%;
+    padding: 15px 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #d24e26;
+    margin-right: 15px;
+}
+
+.content .logout-btn .icon svg {
+    fill: #fff;
+}
+
+.content .logout-btn:hover {
+    background-color: #d9562d;
+}
+
+.content .logout-btn:hover .icon {
+    background-color: #c94b24;
+}
+/*  Adjusted Filter by Keywords Section */
+.filter-section {
+    background-color: #f0f8ff; 
+    padding: 10px; 
+    border-radius: 5px;
+    margin-top: 5px; 
+    width: 30%; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Improve the readability of the label */
+.filter-label {
+    font-size: 16px; 
+    font-weight: bold;
+    color: #333; 
+}
+
+.keyword-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px; 
+    margin-top: 5px; 
+}
+
+.keyword-item {
+    background-color: #ffffff;
+    padding: 6px 10px; 
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.keyword-item input[type="checkbox"] {
+    transform: scale(1.1);  
+    margin-right: 3px;
+}
+
+.keyword-item:hover {
+    background-color: #d9ecff;
+}
+
